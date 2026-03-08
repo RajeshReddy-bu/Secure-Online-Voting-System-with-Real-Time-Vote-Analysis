@@ -12,11 +12,6 @@ async function seed() {
         await mongoose.connect(MONGODB_URI);
         console.log('✅ Connected to MongoDB');
 
-        // Optional: Clear existing candidates
-        // await Candidate.deleteMany({});
-        // console.log('Cleared existing candidates');
-
-        // Check if candidates already exist
         const count = await Candidate.countDocuments();
         if (count > 0) {
             console.log(`Database already has ${count} candidates. Skipping seed.`);
