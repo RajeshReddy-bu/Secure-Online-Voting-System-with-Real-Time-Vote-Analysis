@@ -5,12 +5,12 @@ import VoteModal from '../components/VoteModal';
 import toast from 'react-hot-toast';
 
 const COLORS = [
-    'linear-gradient(135deg, #6366f1, #4f46e5)',
-    'linear-gradient(135deg, #06b6d4, #0891b2)',
-    'linear-gradient(135deg, #f472b6, #db2777)',
-    'linear-gradient(135deg, #f59e0b, #d97706)',
-    'linear-gradient(135deg, #10b981, #059669)',
-    'linear-gradient(135deg, #8b5cf6, #7c3aed)',
+    'linear-gradient(135deg, #d4af37, #b8860b)', // Gold
+    'linear-gradient(135deg, #e5e7eb, #9ca3af)', // Silver
+    'linear-gradient(135deg, #cd7f32, #a0522d)', // Bronze
+    'linear-gradient(135deg, #b87333, #8b4513)', // Copper
+    'linear-gradient(135deg, #f9e076, #d4af37)', // Soft Gold
+    'linear-gradient(135deg, #4b5563, #1f2937)', // Hematite
 ];
 
 const Voting = () => {

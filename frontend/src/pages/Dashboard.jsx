@@ -19,7 +19,7 @@ import toast from 'react-hot-toast';
 ChartJS.register(CategoryScale, LinearScale, BarElement, Title, Tooltip, Legend, ArcElement);
 
 const CHART_COLORS = [
-    '#6366f1', '#06b6d4', '#f472b6', '#f59e0b', '#10b981', '#8b5cf6', '#ef4444'
+    '#d4af37', '#e5e7eb', '#cd7f32', '#b87333', '#f9e076', '#4b5563'
 ];
 
 const Dashboard = () => {

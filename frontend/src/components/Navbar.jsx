@@ -18,9 +18,9 @@ const Navbar = () => {
     return (
         <nav className="navbar">
             <Link to="/" className="navbar-brand">
-                <div className="brand-icon">🗳️</div>
-                <span>
-                    Secure<span className="gradient-text">Vote</span>
+                <div className="brand-icon" style={{ borderRadius: '4px', background: 'linear-gradient(135deg, #d4af37, #b8860b)' }}>SV</div>
+                <span style={{ textTransform: 'uppercase', letterSpacing: '0.1em', fontWeight: 900 }}>
+                    Secure<span className="gradient-text">Systems</span>
                 </span>
             </Link>
 
